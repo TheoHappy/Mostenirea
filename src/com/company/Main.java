@@ -7,5 +7,7 @@ public class Main {
 	    System.out.println(lenovoThinkpad.toString());
 	    HardDisks seagateBarracudaST500DM002 = new HardDisks("ST500DM002", "Seagate",50, false, 15, "3.5 Inch Pentru PC", 500, 7200, 16);
 	    System.out.println(seagateBarracudaST500DM002.toString());
+	    Processors ryzen5 = new Processors("Ryzen 5 1600X", "AMD", 150, true, 20, true, "AM4", 3.6f, 6,16);
+	    System.out.println(ryzen5.toString());
     }
 }
