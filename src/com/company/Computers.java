@@ -2,11 +2,11 @@ package com.company;
 
 
 public class Computers extends Product {
-    String cpu;
-    String gpu;
-    String motherboard;
-    int ram;
-    int rom;
+    private String cpu;
+    private String gpu;
+    private String motherboard;
+    private int ram;
+    private int rom;
 
     Computers(String nameOfProduct, String brand, float price, boolean delivery, int stock, String cpu, String gpu, String motherboard, int ram, int rom) {
         super(nameOfProduct, brand, price, delivery, stock);

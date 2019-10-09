@@ -1,10 +1,10 @@
 package com.company;
 
 public class HardDisks  extends  Product{
-    String format;
-    int capacity;
-    int rotationSpeed;
-    int cache;
+    private String format;
+    private int capacity;
+    private int rotationSpeed;
+    private int cache;
 
     public HardDisks(String nameOfProduct, String brand, float price, boolean delivery, int stock, String format, int capacity, int rotationSpeed, int cache) {
         super(nameOfProduct, brand, price, delivery, stock);
@@ -58,4 +58,5 @@ public class HardDisks  extends  Product{
                 ", RotationSpeed = " + rotationSpeed +
                 ", Cache = " + cache + " }";
     }
+
 }

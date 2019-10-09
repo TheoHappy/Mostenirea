@@ -1,11 +1,11 @@
 package com.company;
 
 public class Processors  extends  Product{
-    boolean cooler;
-    String cpuSocket;
-    float frequency;
-    int nrOfCores;
-    int cache;
+    private boolean cooler;
+    private String cpuSocket;
+    private float frequency;
+    private int nrOfCores;
+    private int cache;
 
     public Processors(String nameOfProduct, String brand, float price, boolean delivery, int stock, boolean cooler, String cpuSocket, Float frequency, int nrOfCores, int cache)
     {

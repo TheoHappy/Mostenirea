@@ -1,11 +1,11 @@
 package com.company;
 
 public class Product {
-    String nameOfProduct;
-    String brand;
-    float price;
-    boolean delivery;
-    int stock; // numarul de produse disponibile la depozit
+    protected String nameOfProduct;
+    protected String brand;
+    protected float price;
+    protected boolean delivery;
+    protected int stock; // numarul de produse disponibile la depozit
 
     Product(String nameOfProduct, String brand, float price, boolean delivery, int stock)
     {
