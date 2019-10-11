@@ -9,5 +9,7 @@ public class Main {
 	    System.out.println(seagateBarracudaST500DM002.toString());
 	    Processors ryzen5 = new Processors("Ryzen 5 1600X", "AMD", 150, true, 20, true, "AM4", 3.6f, 6,16);
 	    System.out.println(ryzen5.toString());
+
+		System.out.println(ryzen5.toString());// Eu am adaugat o linii nou
     }
 }
